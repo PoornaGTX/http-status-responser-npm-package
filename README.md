@@ -7,7 +7,7 @@ all the constants values for Http Status Cods
 
 ## Installation
 
-Install my-project with npm
+Install http-status-codes with npm
 
 ```bash
   npm i http-status-codes
@@ -54,5 +54,4 @@ const login = async (req, res) => {
   BAD_GATEWAY: 502,
   HTTP_VERSION_NOT_SUPPORTED: 505,
   NETWORK_AUTHENTICATION_REQUIRED: 511,
-
 
