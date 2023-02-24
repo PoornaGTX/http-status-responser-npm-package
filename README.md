@@ -1,6 +1,6 @@
 
 # http-status-responser
-all the constants values for Http Status Cods
+All the constants values for Http Status Cods
 
 
 
