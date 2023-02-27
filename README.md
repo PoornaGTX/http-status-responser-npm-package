@@ -1,18 +1,15 @@
-
 # http-status-responser
+
 All the constants values for Http Status Cods
-
-
-
 
 ## Installation
 
 Install http-status-codes with npm
 
 ```bash
-  npm i http-status-codes
+  npm i http-status-responser
 ```
-    
+
 ## Usage/Examples
 
 ```javascript
@@ -24,7 +21,7 @@ const login = async (req, res) => {
 }
 
 
-## Available http codes in last version(1.0.2)
+## Available http codes in latest version(1.0.5)
 
   OK: 200,
   CREATED: 201,
@@ -57,3 +54,4 @@ const login = async (req, res) => {
   HTTP_VERSION_NOT_SUPPORTED: 505,
   NETWORK_AUTHENTICATION_REQUIRED: 511,
 
+```
