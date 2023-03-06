@@ -1,6 +1,7 @@
 # http-status-responser
 
-All the constants values for Http Status Cods
+The "http-status-responser" package is an npm package that provides a simple way to access all the HTTP response code constants values. This package defines a set of constants that represent the different HTTP status codes that can be returned by a server in response to a client request, such as 200 for "OK", 404 for "NOT_FOUND", and 500 for "INTERNAL_SERVER_ERROR". By using this package,
+developers can easily reference these constants in their code instead of hardcoding the status codes, which can help to make the code more readable and maintainable.
 
 ## Installation
 
@@ -21,7 +22,7 @@ const login = async (req, res) => {
 }
 
 
-## Available http codes in the latest version(1.0.5)
+## Available http codes in the latest version(1.0.6)
 
   OK: 200,
   CREATED: 201,
@@ -51,6 +52,7 @@ const login = async (req, res) => {
   INTERNAL_SERVER_ERROR: 500,
   NOT_IMPLEMENTED: 501,
   BAD_GATEWAY: 502,
+  SERVICE_UNAVAILABLE: 503,
   HTTP_VERSION_NOT_SUPPORTED: 505,
   NETWORK_AUTHENTICATION_REQUIRED: 511,
 
