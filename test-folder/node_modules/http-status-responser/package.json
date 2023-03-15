@@ -1,6 +1,6 @@
 {
   "name": "http-status-responser",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "all the constants values of http status codes",
   "main": "index.js",
   "scripts": {
